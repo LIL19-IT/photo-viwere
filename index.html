@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Viewer</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="container">
+        <button id="prev-btn" style="display: none;">&lt;</button>
+        <div id="img-wrapper"></div>
+        <button id="next-btn">&gt;</button>
+
+        <div class="photo-viewer">
+            <div class="img-items" onclick="showImage(0)">
+                <img src="https://i.pinimg.com/564x/d3/1b/b9/d31bb905effbabb65e7ad7b8f08eec45.jpg" alt="Image 1">
+            </div>
+            <div class="img-items" onclick="showImage(1)">
+                <img src="https://i.pinimg.com/564x/da/de/ff/dadeffa6c113e136a130ed1467e7bd2c.jpg" alt="Image 2">
+            </div>
+            <div class="img-items" onclick="showImage(2)">
+                <img src="https://i.pinimg.com/564x/b3/af/b8/b3afb8482ac64a95d1ec54e907b39a03.jpg" alt="Image 3">
+            </div>
+            <div class="img-items" onclick="showImage(3)">
+                <img src="https://i.pinimg.com/736x/df/59/e1/df59e1fff672e8ce6f1a59d208000979.jpg" alt="Image 4">
+            </div>
+            <div class="img-items" onclick="showImage(4)">
+                <img src="https://i.pinimg.com/564x/40/1b/06/401b0689972a2dcf9e0a27162c2cceb6.jpg" alt="Image 5">
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
